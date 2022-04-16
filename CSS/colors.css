@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    position: fixed;
+    background: black;
+}
+.inheader{
+    width: 1000px;
+    height:100%;
+    display: block;
+    margin: 0 auto;
+    background: black;
+
+}
+
+
+.logo_container{
+    height:100%;
+    display:table;
+    float:left;
+}
+.logo_container h1{
+    color: red;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size:32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    color:lightblue;
+    font-weight: 800;
+
+
+}
+
+.navigation{
+    height: 100%;
+    float: right;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+    float: left;
+    vertical-align: middle;
+}
+.navigation a:last-child{
+    padding-right: 0;
+}
+.navigation a li{
+    height: 100%;
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+}
+.navigation a li:hover{
+    color: rgb(255,255,255,0.6);
+}
+.logo{
+    height: 80px;
+    width:  60px;
+}
+
+.subtitle{
+    text-align: auto;
+    background: red;
+
+}
+.subtitle h4{
+    color: black;
+}
+.subtitle h4 span{
+    color: blue;
+}
+.mainimg{
+    width: 100%;
+    height: 100px;
+
+}
+.subimg{
+    width: 100%;
+    height: 722px;
+    background: url(mainimg.png);
+    background-size: cover;
+
+}
+.subimg h1{
+    color: red;
+    height: 100%;
+    text-align:center;
+    vertical-align: middle;
+}
+.thirdtitle{
+    height: 80px;
+    width: 100%;
+    background: black;
+}
+.thirdtitle h1{
+    color: red;
+    float: left;
+}
+.b1{
+    color: black;
+    height: 60px;
+    width: 100px;
+    float:right;
+    margin-left: 1150px;
+    background: red;
+}
+.sixthtitle{
+  height: 80px;
+  width: 100%;
+  background: black;
+}
+.sixthtitles h1{
+    color: red;
+    float: left;
+}
+.b99{
+  color: black;
+  height: 60px;
+  width: 100px;
+  float:right;
+  margin-left: 1150px;
+  background: red;
+
+}
+.drugimg{
+    height: 200px;
+    width: 200px;
+}
+.fourthtitle{
+    height: 65px;
+    width: 100%;
+    background: url(red.png);
+}
+.fourthtitle h1{
+    color: lightgreen;
+    float: left;
+}
+.sixthtitle{
+  height: 65px;
+  width: 100%;
+  background: black;
+}
+.sixthtitle h1{
+  color:red;
+  float:left;
+}
+.b2{
+    color: white;
+    height: 60px;
+    width: 100px;
+    float:right;
+    margin-left: 1140px;
+    background: black;
+}
+.maincor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.drugnames{
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.shop-iteam-detail{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-iteam-price{
+    flex-grow:1;
+    color: red;
+
+}
+.subimg2{
+    width: 100%;
+    height: 722px;
+    background: url(cokain.png);
+    background-size: cover;
+
+}
+.subimg2 h1{
+    color: red;
+    height: 100%;
+    text-align:center;
+    vertical-align: middle;
+}
+.lasttitle{
+    width: 100%;
+    height: 80px;
+    background: black;
+
+}
+.lasttitle{
+    color: lightblue;
+    text-align: center;
+}
+.imgcalabar{
+    height: 60px;
+    width: 100px;
+}
+.song{
+    position: relative;
+    left: 560px;
+    top: 120px;
+}
+.footer1{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background: black;
+}
+
+.shopbutton{
+  background: rgb(31,32,33);
+  color: white;
+  height: 40px;
+  width: 150px;
+  position: relative;
+  left :360px;
+  top:259px;
+}
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin:0;
+    background: linear-gradient(to right, #181818,black)
+
+}

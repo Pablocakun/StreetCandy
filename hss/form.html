@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test19</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/ugly.css">
+    <script src="../javascript101/calculator.js"></script>
+</head>
+<body>
+  <!---------------------------------------------------------------->
+  <div class="header">
+      <div class="inheader">
+          <div class="logo_container">
+              <img src="../images/logoku.jpg" class="logo">
+              <h1>Street<span> Candy</span></h1>
+          </div>
+          <ul class="navigation">
+              <a href="the Drugstore.html"><li>Home</li></a>
+              <a href=""><li>About</li></a>
+              <a href="../face.html"><li>Kappa Alpha</li></a>
+          </ul>
+      </div>
+  </div>
+
+    <!---------------------------------------------------------------->
+    <div class="heading">
+        <h1 > This is to test forms </h1>
+    </div>
+    <form>
+        <div class="box">
+          <h1>Create account</h1>
+            <div class="name">
+              <div class="">
+                <label for="name">Name :</label>
+              </div>
+             <input type="name" name="name" placeholder="username" id="name" required >
+            </div>
+            <div class="password" > <div class="">
+            <label>Password :</label>
+            </div>
+             <input type="Password" name="password" placeholder="At least 6 characters" required="">
+            </div>
+            <div class="repassword" > <div class="">
+            <label>Re-enter password:</label>
+            </div>
+             <input type="Password" name="password" placeholder="Repeat" required="">
+            </div>
+            <div class="email">
+              <div class="">
+            <label for="email">Email :</label>
+              </div>
+                <input type="email" name="email" id="email" placeholder="username@gmail.com" required="">
+            </div>
+            <div class="buttbox">
+              <button type="reset" class="butrest">reset</button>
+              <button type="submit" class="butsubmit">submit</button>
+            </div>
+            <h5 class="agreement">By creating an account, you agree to StreetCandy's <a href="#">Conditions of Use </a> and <a href="#">Privacy Notice.</a> </h5>
+        </div>
+
+    </form>
+
+
+
+<h1 class="title01">Check UP</h1>
+
+<div class="flexbox">
+  <div class="box">
+    <form>
+      <div >
+        number1: <input type="text" id="number1">
+      </div>
+      <div >
+        number2: <input type="text" id="number2">
+      </div>
+    <div >
+      <select id="operator">
+        <option value="add">add</option>
+              <option value="min">subtract</option>
+                    <option value="div">divide</option>
+                          <option value="mul">multiply</option>
+
+      </select>
+      <button type="button" onclick="calcu()">Equal</button>
+    </div>
+    <div class="ansbox">
+      <h4>Result</h4>
+        <div id="result" class="resulto"></div>
+    </div>
+    <div class="checksum">
+    <label for="checksum">Enter you answer</label>
+    <input type="number" name="number" id="checksum" placeholder="answer" required>
+    </div>
+    <button type="button" onclick="test()">compare</button>
+    <div class="compare" id="checkersum"></div>
+    </form>
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+</body>
+</html>
